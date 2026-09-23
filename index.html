@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Limau Katsuri</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="startup-popup" class="popup-overlay">
+        <div class="popup-content">
+            <h2>SYSTEM INITIALIZATION</h2>
+            <p>ENABLE BACKGROUND AUDIO EXPERIENCE?</p>
+            <div class="popup-buttons">
+                <button id="btn-yes" class="cyber-btn">YES [Y]</button>
+                <button id="btn-no" class="cyber-btn">NO [N]</button>
+            </div>
+        </div>
+    </div>
+
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        
+        <div class="secret-ear-btn" onclick="toggleAudio()" title="Toggle System Audio"></div>
+
+        <div class="hero-frame">
+            <div class="hero-left">
+                <h1>Dwi Nova</h1>
+                <h1>Anggoro Putro</h1>
+                <p>Tech Engineer, Linux Enthusiast,</p> 
+                <p>CyberSecurity & Database Management</p>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/dwi-nova-anggoro-putro-b1aab1369" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://open.spotify.com/user/31go5uxs35zbvl6ogtdvbzvxvy5u" target="_blank" title="Spotify"><i class="fa-brands fa-spotify"></i></a>
+                    <a href="https://www.tiktok.com/@novvnovvvangsle?is_from_webapp=1&sender_device=pc" target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/hopefull.novv/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-right-top">
+                <a href="#about-me">About</a>
+            </div>
+
+            <div class="hero-right-bottom">
+                <a href="#projects">Projects</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>
+                    Hello, world. I am <strong>Dwi Nova Anggoro Putro</strong>, an Information Systems undergraduate based in Surabaya, currently running through Bachelor Degree in System Information Major at Universitas Negeri Surabaya (UNESA).
+                </p>
+                <p>
+                    My digital playground revolves around <strong>Cybersecurity</strong> and <strong>Database Management</strong>. I am also  <strong>LOVES</strong> reading Novel and Cyberpunk based stuff, Im currently studying <strong>Linux Debian</strong> based Distro. 
+                </p>
+                <p>
+                    Beyond academia, I operate <em>Noruu Tech Specialist</em>, a local tech repair service. Whether it's hunting vulnerabilities on Hack The Box, developing Python scripts, or modifying retro console hardware, I am driven by an absolute obsession with how systems work under the hood.
+                </p>
+            </div>
+            
+            <div class="about-stats">
+                <div class="stat-line">
+                    <span class="stat-label">> OS_ENV:</span> 
+                    <span class="stat-value">Arch Linux and Windows</span>
+                </div>
+                <div class="stat-line">
+                    <span class="stat-label">> SPECIALIZATION:</span> 
+                    <span class="stat-value">Modification and Disassamble</span>
+                </div>
+                <div class="stat-line">
+                    <span class="stat-label">> DATABASE:</span> 
+                    <span class="stat-value">PostgreSQL</span>
+                </div>
+                <div class="stat-line">
+                    <span class="stat-label">> LOCATION:</span> 
+                    <span class="stat-value">Surabaya, IDN</span>
+                </div>
+                <div class="stat-line">
+                    <span class="stat-label">> SYSTEM_STATUS:</span> 
+                    <span class="stat-value" style="color: #fcee0a;">ONLINE_AND_READY</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="card">
+                <div class="card-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                <h3>UI/UX Design</h3>
+                <p>This project features a mobile application interface design utilizing Figma. I gathered design references through Pinterest to meet project requirements and fulfill a UI/UX course assignment.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Figma</span>
+                    <span class="tech-tag">UI/UX</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-icon"><i class="fa-solid fa-database"></i></div>
+                <h3>Database Management</h3>
+                <p>Implementation and design of relational schemas, SQL query optimization, and trigger creation using industry-standard tools for maximum data integrity.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">Navicat</span>
+                    <span class="tech-tag">DBeaver</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-icon"><i class="fa-solid fa-terminal"></i></div>
+                <h3>Chronos Application</h3>
+                <p>Development of Python-based financial management software to efficiently log and track income, recurring expenses, and debt repayments.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Data Logic</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="audio-lyrics">
+        <h2>Audio Log: A Piece of You</h2>
+        <div class="lyrics-box">
+            <p style="color: #00ffcc; font-size: 1rem;">TRANSFERRING MIND COPY TO THE NET</p>
+            <p style="color: #00ffcc; font-size: 1rem;">TRANSFERRED TO THE NET 0%</p>
+            <p>World Still Happened To Be Trash</p>
+            <p>Thats What My Father Said Before He Fried His Head Up</p>
+            <p style="color: #00ffcc; font-size: 1rem;">TRANSFERRED TO THE NET 26%</p>
+            <p>Heh.. I Guess Premium Internet Worth It..</p>
+            <p>I Hope This Works, Whether If I Gonna End Up Like My Old Man or Not</p>
+            <p style="color: #00ffcc; font-size: 1rem;">TRANSFERRED TO THE NET</p>
+            <p>I Can't Feel My Legs No More.. I Guess It Was Normal</p>
+            <p>I Feel So Numb</p>
+            <p style="color: #00ffcc; font-size: 1rem;">TRANSFERRED TO THE NET 78%</p>
+            <p>GOD, THAT FAST</p>
+            <p>Okay Here We Go</p>
+            <p style="color: #00ffcc; font-size: 1rem;">MIND TRANSFERRED TO THE NET SUCCESFULLY</p>
+            <p>OKAY.. EVERYTHING GOOD, I HOPE NOTHING EVER HAPP-eNN!! Huh??</p>
+            <p>What Hap-PPEN!!!???</p>
+            <p>GOD.. HAVE mERcYY!!?</p>
+            <p>WhAT HAPPEnn?? dID Maelstrom just Flatlined My Body??!</p>
+            <p>AGHH!! BARTMOSS-eeeaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAa</p>
+            <p>BARTMOSS wiLLL LOCCk MeEE in HErEE?>></p>
+            <p>PLEASE HELpEPP MEeeeee- Any.. ONE!!</p>
+            <p style="color: #00ffcc; font-size: 1rem;">RABID HAS LOCK THE GATE</p>   
+            <p style="color: #ff0055; font-size: 1rem;">[ AUDIO LOG DISCONNECTED FROM THE WIRED ]</p>
+            <p style="color: #ff0000; font-size: 1rem;">F FOR YOUR AUDIO LOGS</p>
+            <p style="color: #ff0000; font-size: 1rem;">PS. RACHE BARTMOSS</p>
+            <p style="color: #555;">[ AUDIO LOG HAS FAILED TO RECONNECT ]</p>
+        </div>
+    </section>
+
+    <audio id="bg-music" loop>
+        <source src="Porto Music.mp3" type="audio/mpeg">
+    </audio>
+
+    <footer>
+        <p>&copy; 2026 Dwi Nova Anggoro Putro. SYSTEM_READY.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
